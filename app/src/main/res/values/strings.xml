@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">CourtCounter</string>
+    <string name="teamA">Team A</string>
+    <string name="team1">0</string>
+    <string name="button1">+3 POINTS</string>
+    <string name="button2">+2 POINTS</string>
+    <string name="button3">FREE THROW</string>
+
+    <string name="teamB">Team B</string>
+    <string name="team2">0</string>
+    <string name="button4">+3 POINTS</string>
+    <string name="button5">+2 POINTS</string>
+    <string name="button6">FREE THROW</string>
+    <string name="reset_label">reset</string>
+
+    <string name="input">请输入rmb</string>
+    <string name="text">好饿</string>
+    <string name="dollar">dollar</string>
+    <string name="euro">euro</string>
+    <string name="won">won</string>
+    <string name="edittext" />
+    <string name="config">config</string>
+    <string name="btn_save_label">保存</string>
+    <string name="menu_set_label">button</string>
+</resources>

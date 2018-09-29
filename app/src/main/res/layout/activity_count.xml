@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingVertical="16dp"
+    android:paddingHorizontal="24dp"
+    android:tooltipText="CourtCounter"
+    tools:context=".activity_count">
+
+    <LinearLayout
+        android:id="@+id/Linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="16dp"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            tools:text="@string/teamA"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/team1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            android:padding="60dp"
+            android:textSize="45sp"
+            tools:text="@string/team1" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="threePointsA"
+            android:paddingBottom="8dp"
+            android:paddingHorizontal="24dp"
+
+            android:textSize="16sp"
+            tools:text="@string/button1" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="twoPointsA"
+            android:paddingBottom="8dp"
+            android:paddingHorizontal="24dp"
+            android:textSize="16sp"
+            tools:text="@string/button2" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="freeThrowA"
+            android:paddingHorizontal="24dp"
+            android:textSize="16sp"
+            tools:text="@string/button3" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Linear2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingVertical="16dp"
+        android:layout_toRightOf="@id/Linear1"
+        android:layout_alignBaseline="@id/Linear2"
+        android:showDividers="middle"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center"
+            tools:text="@string/teamB"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/team2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="60dp"
+            android:textSize="45sp"
+            tools:text="@string/team1" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="threePointsB"
+            android:paddingBottom="8dp"
+            android:paddingHorizontal="24dp"
+
+            android:textSize="16sp"
+            tools:text="@string/button4" />
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="twoPointsB"
+            android:paddingBottom="8dp"
+            android:paddingHorizontal="24dp"
+            android:textSize="16sp"
+            tools:text="@string/button5" />
+
+        <Button
+            android:id="@+id/button6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="freeThrowB"
+            android:paddingHorizontal="24dp"
+            android:textSize="16sp"
+            tools:text="@string/button6" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/reset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="29dp"
+        android:onClick="reset"
+        tools:text="@string/reset_label" />
+
+</RelativeLayout>
